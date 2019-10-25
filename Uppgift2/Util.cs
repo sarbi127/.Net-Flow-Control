@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Uppgift2
 {
-    class Util
+    public class Util
     {
         //Checks whether a person is a pensioner or youth at the specified age.
         public void Person(string input)

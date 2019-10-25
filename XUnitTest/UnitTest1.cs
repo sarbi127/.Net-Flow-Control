@@ -1,4 +1,5 @@
 using System;
+//using Uppgift2;
 using Xunit;
 
 namespace XUnitTest
@@ -10,13 +11,16 @@ namespace XUnitTest
         {
 
             //Test1  
-            string input =" 12";
+            string number = "12";
             Util util = new Util();
 
 
-            // act   
-            int result =util.Person(input);
-  
+            // act  
+
+            int result = util.Person(number);
+
+            //int stringToint = Int32.Parse(result);
+
             //var result = book.GetStatistics();
 
 
