@@ -14,7 +14,6 @@ namespace XUnitTest
             string number = "12";
             Util util = new Util();
 
-
             // act  
 
             int result = util.Person(number);
