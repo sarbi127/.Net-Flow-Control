@@ -10,7 +10,7 @@ namespace XUnitTest
         public void Test1()
         {
 
-            //Test1  
+            //Test1   
             string number = "12";
             Util util = new Util();
 
