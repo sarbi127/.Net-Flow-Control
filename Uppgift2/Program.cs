@@ -4,22 +4,21 @@ namespace Uppgift2
 {
     class Program
     {
-        
-
+ 
         static void Main(string[] args)
         {
             
             while (true)
             {
-                System.Console.WriteLine("Type number and press the Enter Key:");
-                System.Console.WriteLine( "0.  Exit ");
-                System.Console.WriteLine( "1.  Checks whether a person is a pensioner or youth at the specified age.");
-                System.Console.WriteLine( "2.  Checks number of people and total cost for the whole company.");
-                System.Console.WriteLine( "3.  Please write what you want and it is scan 10 times.");
-                System.Console.WriteLine( "4.  Please write at least three words and it is divides into words.");
+                Console.WriteLine("Type number and press the Enter Key:");
+                Console.WriteLine( "0.  Exit ");
+                Console.WriteLine( "1.  Checks whether a person is a pensioner or youth at the specified age.");
+                Console.WriteLine( "2.  Checks number of people and total cost for the whole company.");
+                Console.WriteLine( "3.  Please write what you want and it is scan 10 times.");
+                Console.WriteLine( "4.  Please write at least three words and it is divides into words.");
                 //try
                 //{
-                   int a = int.Parse(System.Console.ReadLine());
+                   int a = int.Parse(Console.ReadLine());
 
                     //int a;
                     string answer;

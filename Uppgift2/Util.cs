@@ -10,19 +10,22 @@ namespace Uppgift2
         public void Person(string input)
         {
             int result = Int32.Parse(input);
-
-            if (result < 20)
+            if( result < 5 || result > 100)
             {
-                Console.WriteLine("Youth price: 80kr ");
+                Console.WriteLine("Free");
+            }
+            else if (result < 20 )
+            {
+                Console.WriteLine("Youth price: 80kr");
 
             }
-            else if (result > 64)
+            else if (result > 64 )
             {
-                Console.WriteLine("Pensioner price: SEK 90 ");
+                Console.WriteLine("Pensioner price: SEK 90");
             }
             else
             {
-                Console.WriteLine("Standard price: SEK 120 ");
+                Console.WriteLine("Standard price: SEK 120");
             }
 
         }
@@ -70,7 +73,6 @@ namespace Uppgift2
                 Console.Write($"{a}.{sentenc},");
             }
         }
-
 
         //write what you want and it is scan 10 times. 
         public void Split(string phrase)
